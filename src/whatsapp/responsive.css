@@ -1,0 +1,188 @@
+@media (max-width: 640px) {
+  div#app ._1XkO3 {
+    min-width: 480px;
+  }
+
+  /* HEADER IN TOP */
+    div#app .ldL67._2i3T7 > header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 100vw;
+    }
+
+    div#app #main > header {
+      top: 59px;
+    }
+
+    div#app #side {
+      padding-top: 59px;
+    }
+    
+  /* SEARCHBAR IN THE HEADER */
+  div#app header > .YtmXM {
+    display: flex;
+  }
+
+    div#app header > .YtmXM > .uwk68 {
+      z-index: 1000;
+      min-width: 200px;
+      background-color: transparent;
+    }
+
+    div#app header .uwk68 > ._3yWey {
+      height: auto;
+      padding: 0 8px;
+      background-color: transparent;
+    }
+
+    div#app header .uwk68 > ._3yWey > .tKJAr > ._16C8p {
+      padding-left: 45px;
+      background-color: var(--search-container-background);
+    }
+
+  /* CONTACTS ONLY PICTURE */
+  div#app #side {
+    width: 104px;
+  }
+    div#app ._1XkO3 .ldL67._2i3T7 {
+      flex: 0 0 auto;
+      width: 104px;
+      max-width: none;
+      overflow: visible;
+    }
+  
+    #pane-side ._1Oe6M {
+      border-bottom: 1px solid var(--border-list);
+    }
+
+    #pane-side div[aria-label="Chat list"] {
+      margin-top: 4px;
+    }
+  
+
+    #pane-side ._2nY6U {
+      border-radius: 8px;
+      height: 64px;
+      min-width: 83px;
+      width: fit-content;
+      margin-left: 3px;
+    }
+
+    #pane-side ._2nY6U:hover:after, 
+    #pane-side .vq6sj:hover:after {
+      border: none;
+    }
+    
+    #pane-side ._2nY6U > ._2EU3r > .HONz8 {
+      padding: 0 6px;
+
+    }
+
+    #side ._2nY6U.vq6sj > ._3OvU8 {
+      border: 0;
+      padding: 0;
+    }
+
+    #side ._2nY6U.vq6sj > ._3OvU8 > div:nth-child(2) > ._1i_wG {
+      margin-left: 0;
+      margin-right: 6px;
+    }
+
+    #side ._2nY6U.vq6sj > ._3OvU8 > div:nth-child(2) > ._1i_wG > span:first-child {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #side ._2nY6U.vq6sj > ._3OvU8 > div:nth-child(2) > ._1i_wG > span:first-child > :first-child {
+      margin-bottom: 4px;
+      margin-right: 0;
+    }
+
+    #side ._2nY6U.vq6sj > ._3OvU8 > div:nth-child(1),
+    #side ._2nY6U.vq6sj > ._3OvU8 > div:nth-child(2) > ._1qB8f, 
+    #side ._2nY6U.vq6sj > ._3OvU8 > div:nth-child(2) > ._1i_wG > span:last-child {
+      display: none;
+    }
+
+    div#app #pane-side {
+      padding-left: 4px;
+    }
+
+  /* TEXT PADDING/MARGIN REDUCE */
+  #pane-side > div.cm280p3y.p357zi0d.tvf2evcx, 
+  #pane-side > ._2XifE._2YGcU,
+  html:not([dir='rtl']) .td5bf8pq.l3k7h4x6,
+  div#app .YGe90.MCwxg {
+    padding-right: 4px;
+    padding-left: 4px;
+    text-align: center;
+  }
+
+    html:not([dir='rtl']) .nzcjdldu.gqi0zhd6 {
+      margin-left: 4px;
+      margin-right: 4px;
+    }
+
+  /* CONTACT/GROUP INFO */
+  div#app .three .ldL67._1bLj8 {
+    left: 104px;
+    max-width: calc(100% - 104px);
+    width: -webkit-fill-available;
+    top: 59px;
+  }
+    div#app .three .ldL67._1bLj8._1cpSb {
+      width: 100vw;
+    }
+
+    div#app .three .ldL67._1bLj8 > span > div > span {
+      width: -webkit-fill-available;
+    }
+
+    div#app .three .ldL67._1bLj8 > span > div > span section {
+      padding-top: 8px;
+      padding-bottom: 59px;
+    }
+
+    div#app .three .ldL67._1bLj8 > span > div > span section .gsqs0kct.oauresqk.efgp0a3n.h3bz2vby {
+      padding: 8px;
+      margin: 0 8px 10px;
+    }
+
+    div#app .three .ldL67._1bLj8 > span > div > span section .tt8xd2xn.dl6j7rsh.mpdn4nr2.avk8rzj1 {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+  /* STATES SIZE */  
+  span.ppled2lx.tkdu00h0 {
+    width: 100vw;
+    border-right: 1px solid var(--avatar-circle-gray)
+  }
+    div#app ._1iwk6 > ._2v5gS {
+      left: 50%;
+    }
+
+    div#app ._1iwk6 > ._2HUCB,
+    div#app ._1iwk6 > ._2v5gS {
+      width: 50%;
+    } 
+  
+
+  /* CONTACTS GROUP CREATE */
+  .b9fczbqn.p357zi0d.f8m0rgwh.gndfcl4n.j1p1mz06.a4bywxmn.f9ovudaz.jzp2c175.gx1rr48f.qfejxiq4::after {
+    content: "VanDeFlame";
+  }
+
+  /* MODALS */
+  #app > div > span:nth-child(2)  .overlay > ._3ev9- {
+    min-width: none;
+    padding: 8px;
+  }
+    #app > div > span:nth-child(2)  .overlay > ._3ev9- {
+      max-width: 500px;
+      width: 100%;
+    }
+}

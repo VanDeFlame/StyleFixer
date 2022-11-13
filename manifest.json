@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "Style Fixer",
+  "short_name": "style-fixer",
+  "author": "VanDeFlame",
+  "version": "0.0.1",
+  "description": "Fix minor details and resolve non-responsive views on desktop",
+  "icons": {
+    "16": "src/icons/16.png",
+    "32": "src/icons/32.png",
+    "48": "src/icons/48.png",
+    "128": "src/icons/128.png"
+  },
+  "action": {
+    "browser_style": true,
+    "default_icon": {
+      "16": "src/icons/16.png",
+      "32": "src/icons/32.png"
+    },
+    "default_title": "Style Fixer",
+    "default_popup": "src/index.html"
+  },  
+  "background.service_worker": {
+    "scripts": ["src/index.js"]
+  },
+  "permissions": ["tabs", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "css": ["src/youtube/fix.css"]
+    },
+    {
+      "matches": ["https://www.instagram.com/*"],
+      "css": ["src/instagram/fix.css"]
+    },
+    {
+      "matches": ["https://web.whatsapp.com/*"],
+      "js": ["src/whatsapp/index.js"],
+      "css": ["src/whatsapp/responsive.css"]
+    }
+  ]
+}
