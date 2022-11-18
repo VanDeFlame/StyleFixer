@@ -7,7 +7,7 @@ In particular circumstances, also try to create a new view on a website without 
 # Responsive
 
 - **WhatsApp** 
-	- 480px - 640px
+	- 480px - 748px
 		- Chat list doesn't show the name, only the image and the number of unread messages.
 		- Side menus now span the entire screen.
 		- The menu is now at the top, the search bar too.

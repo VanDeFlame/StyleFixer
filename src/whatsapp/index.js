@@ -1,8 +1,19 @@
-setTimeout(() => {
-  let onSizeChange = main()
-  window.addEventListener('resize', onSizeChange);
-  onSizeChange({ target: { innerWidth: window.innerWidth }})
-}, 5000)
+const app = document.querySelector('#app');
+
+// Initializer
+const callback = (mutationsList, observer) => {
+  for (const mutation of mutationsList) {
+    if (mutation.target?.firstChild?.lastChild?.className?.includes('_1XkO3')) { 
+      let onSizeChange = main()
+      window.addEventListener('resize', onSizeChange);
+      onSizeChange({ target: { innerWidth: window.innerWidth }})
+      observer.disconnect();
+    }
+  }
+}
+
+const observer = new MutationObserver(callback);
+observer.observe(app, { attributes: false, childList: true, subtree: true });
 
 function main () {
   let smallView;
@@ -30,9 +41,9 @@ function main () {
   function onSizeChange(event) {  
     const currentWidth = event.target.innerWidth;
 
-    if (currentWidth <= 640 && !smallView) {
+    if (currentWidth <= 748 && !smallView) {
       useSmallView()
-    } else if (currentWidth > 640 && smallView) {
+    } else if (currentWidth > 748 && smallView) {
       useNormalView()
     }
   }
