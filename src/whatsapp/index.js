@@ -3,7 +3,7 @@ const app = document.querySelector('#app');
 // Initializer
 const callback = (mutationsList, observer) => {
   for (const mutation of mutationsList) {
-    if (mutation.target?.firstChild?.lastChild?.className?.includes('_1XkO3')) { 
+    if (mutation.target?.firstChild?.lastChild?.className?.includes('two')) { 
       let onSizeChange = main()
       window.addEventListener('resize', onSizeChange);
       onSizeChange({ target: { innerWidth: window.innerWidth }})

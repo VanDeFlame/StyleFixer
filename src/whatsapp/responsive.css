@@ -1,15 +1,16 @@
 @media (max-width: 748px) {
-  div#app ._1XkO3 {
+  div#app .two {
     min-width: 480px;
   }
 
   /* HEADER IN TOP */
-    div#app .ldL67._2i3T7 > header {
+    div#app .app-wrapper-web > [tabindex="-1"] > :nth-child(3) > header {
       position: fixed;
       top: 0;
       left: 0;
       right: 0;
       width: 100vw;
+      border-bottom: 1px solid var(--background-default);
     }
 
     div#app #main > header {
@@ -46,7 +47,9 @@
   div#app #side {
     width: 104px;
   }
-    div#app ._1XkO3 .ldL67._2i3T7 {
+    div#app .two > :nth-child(3),
+    div#app .two > :nth-child(2) > [data-testid="drawer-left"],
+    div#app .three > :nth-child(3) {
       flex: 0 0 auto;
       width: 104px;
       max-width: none;
@@ -67,6 +70,9 @@
     }
     #pane-side > button[aria-label="Archived "] > ._2nY6U > :not(:first-child) {
       display: none;
+    }
+    .ln8gz9je.ihvf49ua > .kozhillt {
+      margin-left: 4px;
     }
     
     #pane-side ._2nY6U {
@@ -178,36 +184,36 @@
     }
 
   /* STARED MESSAGES */
-  div#app .two ._3ArsE > .ldL67._2i3T7._1cpSb {
+  div#app .two > :nth-child(2) > [data-testid="drawer-left"] {
     width: 100%;
   }
 
   /* CONTACT/GROUP INFO */
-  div#app .three .ldL67._1bLj8 {
+  div#app .three > :nth-child(5) {
     left: 104px;
     max-width: calc(100% - 104px);
     width: -webkit-fill-available;
     top: 59px;
   }
-    div#app .three .ldL67._1bLj8._1cpSb {
+    div#app .three > :nth-child(5)[data-testid="drawer-left"] {
       width: 100vw;
     }
 
-    div#app .three .ldL67._1bLj8 > span > div > span {
+    div#app .three > :nth-child(5) > span > div > span {
       width: -webkit-fill-available;
     }
 
-    div#app .three .ldL67._1bLj8 > span > div > span section {
+    div#app .three > :nth-child(5) > span > div > span section {
       padding-top: 8px;
       padding-bottom: 59px;
     }
 
-    div#app .three .ldL67._1bLj8 > span > div > span section .gsqs0kct.oauresqk.efgp0a3n.h3bz2vby {
+    div#app .three > :nth-child(5) > span > div > span section .gsqs0kct.oauresqk.efgp0a3n.h3bz2vby {
       padding: 8px;
       margin: 0 8px 10px;
     }
 
-    div#app .three .ldL67._1bLj8 > span > div > span section .tt8xd2xn.dl6j7rsh.mpdn4nr2.avk8rzj1 {
+    div#app .three > :nth-child(5) > span > div > span section .tt8xd2xn.dl6j7rsh.mpdn4nr2.avk8rzj1 {
       margin-left: 0;
       margin-right: 0;
     }

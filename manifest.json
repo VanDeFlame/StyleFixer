@@ -3,7 +3,7 @@
   "name": "Style Fixer",
   "short_name": "style-fixer",
   "author": "VanDeFlame",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fix minor details and resolve non-responsive views on desktop",
   "icons": {
     "16": "src/icons/16.png",
