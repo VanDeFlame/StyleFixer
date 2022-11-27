@@ -183,6 +183,12 @@
       fill: var(--primary)
     }
 
+  /* SEND IMAGE */
+  div#app .two > :nth-child(2) > [data-testid="drawer-middle"] {
+    position: absolute;
+    width: 100%;
+  }
+
   /* STARED MESSAGES */
   div#app .two > :nth-child(2) > [data-testid="drawer-left"] {
     width: 100%;
